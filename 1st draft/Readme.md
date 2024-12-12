@@ -2,6 +2,8 @@
 
 The `Parameters.m` script is used for initializing and configuring the parameters of a Phase-Locked Loop (PLL) system. Below is a breakdown of its key components:
 
+![Parameters](images/Parameters.png)
+
 ## 1. **Gain and Constants Initialization**
 The script sets up key parameters for the PLL system, including various system constants:
 
@@ -111,6 +113,8 @@ This Simulink model is essential for simulating and analyzing the PLL system's p
 ---
 ---
 # Analysis.m Explanation
+
+![Analysis](images/Analysis.png)
 
 The `analysis.m` script is designed to analyze the phase noise and overall performance of a Phase-Locked Loop (PLL) system by linearizing its Simulink model (`implementation.slx`). This script performs phase noise computations and visualizes the contributions from various noise sources. Below is an outline of its functionality:
 
