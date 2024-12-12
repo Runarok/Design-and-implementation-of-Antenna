@@ -6,6 +6,7 @@ This documentation provides a detailed overview of the variables, functions, and
 
 ## **1. Parameters.m**
 Defines system-level parameters and transfer functions for a Phase-Locked Loop (PLL) simulation.
+![Parameters](images/Parameters.jpeg)
 
 ### **Variables**
 - **`Kp`**: Phase detector gain, \( \frac{1}{2\pi} \) (volts/rad).
@@ -45,6 +46,8 @@ Defines system-level parameters and transfer functions for a Phase-Locked Loop (
 ## **2. Implementation.m**
 Executes simulations for the PLL system.
 
+![Implementation](images/Implementation.jpeg)
+
 ### **Processes**
 1. **Step Response Simulation**:
    - Simulates the step response of the closed-loop transfer function (`CL_TF`).
@@ -69,7 +72,7 @@ Executes simulations for the PLL system.
 
 ## **3. Analysis.m**
 Analyzes the simulation results and phase noise behavior.
-
+![Analysis](images/Analysis.jpeg)
 ### **Processes**
 1. **Load Results**:
    - Loads parameters and simulation results from `Parameters.m` and `Implementation_Results.mat`.
