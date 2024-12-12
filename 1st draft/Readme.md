@@ -68,7 +68,7 @@ This script serves as the initialization and configuration backbone for the PLL 
 ---
 # Implementation.slx Explanation
 
-![Simulink Model](./image/Simulink%20model.png)
+![Simulink Model](./images/Simulink%20model.png)
 
 
 The `implementation.slx` file represents the Simulink model of a Phase-Locked Loop (PLL) system. This model simulates the behavior of the PLL and allows for the analysis of its performance, including phase noise contributions from different components. Below is an overview of its structure and key components:
