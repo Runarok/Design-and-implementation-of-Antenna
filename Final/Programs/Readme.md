@@ -6,6 +6,7 @@ This documentation provides a detailed overview of the variables, functions, and
 
 ## **1. Parameters.m**
 Defines system-level parameters and transfer functions for a Phase-Locked Loop (PLL) simulation.
+
 ![Parameters](images/Parameters.png)
 
 ### **Variables**
@@ -72,7 +73,9 @@ Executes simulations for the PLL system.
 
 ## **3. Analysis.m**
 Analyzes the simulation results and phase noise behavior.
+
 ![Analysis](images/Analysis.png)
+
 ### **Processes**
 1. **Load Results**:
    - Loads parameters and simulation results from `Parameters.m` and `Implementation_Results.mat`.
