@@ -1,4 +1,4 @@
-# PLL (Phase-Locked Loop) Project - 5th Semester Mini Project
+# Design and Implementation of Antenna - 5th Semester Mini Project
 
 This repository contains a MATLAB implementation of a Phase-Locked Loop (PLL) with a focus on simplicity and clarity, built as part of my mini project for the 5th semester. The project is a refined version of a similar project I came across at [kschutz68/PLL_PD_PN](https://github.com/kschutz68/PLL_PD_PN).
 
@@ -29,6 +29,10 @@ The repository contains the following drafts:
 - **Draft2**: Refinement with either MATLAB embedded Simulink or partial MATLAB replacement.
 - **Draft3**: Fully MATLAB-based PLL implementation.
 - **Draft4**: Final version with improved readability and documentation.
+
+### Go Through the Final Version
+
+It is highly recommended to go through the **Final Version (Draft4)** as it is explained in more detail than the other drafts. It has improved structure, more in-depth explanations, and is the most refined version of the project.
 
 ### How to Run
 
