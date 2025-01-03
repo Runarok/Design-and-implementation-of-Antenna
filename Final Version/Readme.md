@@ -76,13 +76,7 @@ This folder contains documentation on functions and commands that fall outside t
 
 - **[Report.md](./Misc/Report.md)**:  
   Contains details related to the process of writing the report.
-
-- **[Showcased.html](./Misc/Showcased.html)**:  
-  Displays the HTML files and other documents present in the folder, including:
-  Block diagram.html (system architecture), Review 1.pdf (first project review), and Review 2 Final.pptx (final version of the second review).
   
->Hosted on : [Github Pages](https://runarok.github.io/Design-and-implementation-of-Antenna/Final%20Version/Misc/Showcased.html)
-
 ---
 
 This overview helps you navigate the project folder structure and understand the purpose of each file and folder.  
