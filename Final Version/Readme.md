@@ -68,14 +68,11 @@ This folder contains documentation on functions and commands that fall outside t
 - **[Review 2 Final.pptx](./Misc/Review%202%20Final.pptx)**:  
   The PowerPoint presentation for the second project review.
 
-- **[Block Diagrams](./Misc/Block%20diagram.html)**:  
-  Contains six block diagrams. Key diagrams include the **Second Block Diagram** (PLL system with phase noise simulation) and the **Sixth Block Diagram** (Complete system workflow).
-
 - **[Functions.md](./Misc/Functions.md)**:  
   This file provides an explanation of the MATLAB functions and commands used in the project. It details the syntax and purpose of each function, including **run**, **tf**, **step**, **bode**, and others, explaining how they are applied to process the system parameters, simulate the antenna system, and analyze the results.
 
 - **[Report.md](./Misc/Report.md)**:  
-  Contains details related to the process of writing the report.
+  Contains details related to the information needed during the process of writing the report.
   
 ---
 
