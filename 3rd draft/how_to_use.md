@@ -1,3 +1,4 @@
+> **Note**: It is highly recommended to use the [Final Version](https://github.com/Runarok/Design-and-implementation-of-Antenna/tree/main/Final%20Version) of the project, as it contains the most up-to-date and optimized files for phase noise analysis and antenna design. The version you're currently viewing may be outdated or not as refined.
 
 # How to Use These Files for Phase Noise Analysis and Antenna Design
 
@@ -67,4 +68,4 @@ Suppose you want to study how changing the **loop bandwidth** affects phase nois
 
 ---
 
-Happy simulating and analyzing! If you encounter any issues, feel free to ask for assistance.
+Happy simulating and analyzing!
