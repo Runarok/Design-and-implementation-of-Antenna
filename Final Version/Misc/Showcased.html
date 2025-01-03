@@ -27,7 +27,7 @@
             margin: 20px;
         }
 
-        iframe {
+        iframe, object {
             width: 100%;
             height: 600px;
             border: none;
@@ -43,6 +43,24 @@
         .file-container {
             margin-bottom: 40px;
         }
+
+        .back-button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #FFEB3B;
+            color: #121212;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #FFCA28;
+        }
+
+        .file-links {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -52,28 +70,57 @@
     </header>
 
     <div class="content">
-        <!-- Block Diagram HTML -->
-        <div class="file-container">
-            <h2 style="color: #FFEB3B;">Block diagram.html</h2>
-            <p class="file-description">A visual representation of the system architecture.</p>
-            <iframe src="Misc/Block diagram.html"></iframe>
+        <!-- File Links (to navigate to files) -->
+        <div class="file-links">
+            <h2 style="color: #FFEB3B;">Documents</h2>
+            <p class="file-description">Click to view the document:</p>
+            <ul>
+                <li><a href="#" onclick="openFile('html', 'https://github.com/Runarok/repository/blob/main/Misc/Block%20diagram.html')">Block diagram.html</a></li>
+                <li><a href="#" onclick="openFile('pdf', 'https://github.com/Runarok/repository/blob/main/Misc/Review%201.pdf')">Review 1.pdf</a></li>
+                <li><a href="#" onclick="openFile('pptx', 'https://github.com/Runarok/repository/blob/main/Misc/Review%202%20Final.pptx')">Review 2 Final.pptx</a></li>
+            </ul>
         </div>
 
-        <!-- Review 1 PDF -->
-        <div class="file-container">
-            <h2 style="color: #FFEB3B;">Review 1.pdf</h2>
-            <p class="file-description">The first review of the project in PDF format.</p>
-            <iframe src="Misc/Review 1.pdf" type="application/pdf"></iframe>
+        <!-- Embedded File Viewer -->
+        <div id="fileViewer" style="display:none;">
+            <button class="back-button" onclick="goBack()">Back</button>
+            <div id="embedContainer"></div>
         </div>
 
-        <!-- Review 2 PowerPoint -->
-        <div class="file-container">
-            <h2 style="color: #FFEB3B;">Review 2 Final.pptx</h2>
-            <p class="file-description">The final version of the second review in PowerPoint format.</p>
-            <!-- Embed PowerPoint using Google Docs Viewer or any online viewer -->
-            <iframe src="https://docs.google.com/viewer?url=your_website_url/Misc/Review%202%20Final.pptx&embedded=true"></iframe>
-        </div>
     </div>
+
+    <script>
+        function openFile(type, url) {
+            const embedContainer = document.getElementById('embedContainer');
+            const fileViewer = document.getElementById('fileViewer');
+            
+            let embedCode = '';
+
+            // Hide the links and show the embedded viewer
+            document.querySelector('.file-links').style.display = 'none';
+            fileViewer.style.display = 'block';
+
+            if (type === 'html') {
+                embedCode = `<iframe src="${url}" frameborder="0"></iframe>`;
+            } else if (type === 'pdf') {
+                embedCode = `<iframe src="https://github.com/Runarok/repository/raw/main/Misc/Review%201.pdf" type="application/pdf" width="100%" height="600px"></iframe>`;
+            } else if (type === 'pptx') {
+                embedCode = `<iframe src="https://github.com/Runarok/repository/raw/main/Misc/Review%202%20Final.pptx" width="100%" height="600px"></iframe>`;
+            }
+
+            embedContainer.innerHTML = embedCode;
+        }
+
+        function goBack() {
+            const embedContainer = document.getElementById('embedContainer');
+            const fileViewer = document.getElementById('fileViewer');
+            
+            // Show the links again and hide the embedded viewer
+            document.querySelector('.file-links').style.display = 'block';
+            fileViewer.style.display = 'none';
+            embedContainer.innerHTML = ''; // Clear the embedded content
+        }
+    </script>
 
 </body>
 </html>
