@@ -32,7 +32,7 @@ The repository contains the following drafts:
 
 ### Go Through the Final Version
 
-It is highly recommended to go through the **Final Version (Draft4)** as it is explained in more detail than the other drafts. It has improved structure, more in-depth explanations, and is the most refined version of the project.
+It is highly recommended to go through the **[Final Version](/Final%20Version)** as it is explained in more detail than the other drafts. It has improved structure, more in-depth explanations, and is the most refined version of the project.
 
 ### How to Run
 
