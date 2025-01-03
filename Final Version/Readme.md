@@ -65,7 +65,7 @@ This folder contains documentation on functions and commands that fall outside t
 - **[Review 2 Final.pptx](./Misc/Review%202%20Final.pptx)**:  
   The PowerPoint presentation for the second project review.
 
-- **[Block Diagrams](./Misc/Block_diagram.html)**:  
+- **[Block Diagrams](./Misc/Block%20diagram.html)**:  
   Contains six block diagrams. Key diagrams include the **Second Block Diagram** (PLL system with phase noise simulation) and the **Sixth Block Diagram** (Complete system workflow).
 
 - **[Functions.md](./Misc/Functions.md)**:  
