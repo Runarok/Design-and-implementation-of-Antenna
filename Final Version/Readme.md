@@ -62,6 +62,9 @@ This folder contains documentation on functions and commands that fall outside t
 - **[Title.md](./Misc/Title.md)**:  
   Includes detailed information on the project title and naming conventions.
 
+- **[Review 1.pdf](./Misc/Review%201.pdf)**:  
+  The PowerPoint presentation for the second project review.
+
 - **[Review 2 Final.pptx](./Misc/Review%202%20Final.pptx)**:  
   The PowerPoint presentation for the second project review.
 
@@ -73,6 +76,10 @@ This folder contains documentation on functions and commands that fall outside t
 
 - **[Report.md](./Misc/Report.md)**:  
   Contains details related to the process of writing the report.
+
+- **[Showcased.html](./Misc/Showcased.html)**:  
+  Displays the HTML files and other documents present in the folder, including:
+  Block diagram.html (system architecture), Review 1.pdf (first project review), and Review 2 Final.pptx (final version of the second review).
 
 ---
 
